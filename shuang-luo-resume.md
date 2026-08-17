@@ -100,4 +100,4 @@ Led cross-functional engineering teams while remaining the lead full stack engin
 - Master of Engineering, Computer Science | 2010 - 2013
 - Bachelor of Engineering, Mechanical Engineering; Bachelor of Economics | 2005 - 2011
 
-*r10 · 2026-08-17*
+*rev#12  ·  Aug 17, 2026*
