@@ -72,10 +72,8 @@ Led cross-functional engineering teams while remaining the lead full stack engin
 ### Tencent E-Commerce (ECC), acquired by JD.com
 **Software Engineer** | 04/2013 - 05/2015 | Shanghai, China
 
-- Led DevOps for the mobile division of one of China's largest B2C platforms, and built the Configuration Management Database (CMDB) that gave it a single source of truth for infrastructure.
-- Built the server monitoring infrastructure and a status-code monitoring system, turning silent HTTP error spikes into actionable alerts.
-
-**Earlier:** QA Intern, Trend Micro Inc., Nanjing, China (04/2011 - 10/2011). Built the automated testing framework for the InterScan Messaging Security Virtual Appliance.
+- Built the cross-platform monitoring agent (Windows and Linux) for in-warehouse PCs and servers, with centralized remote deployment and updates.
+- Led DevOps for the mobile division of one of China's largest B2C platforms: the Configuration Management Database (CMDB) that gave it a single source of truth for infrastructure, plus server monitoring and a status-code system that turned silent HTTP error spikes into actionable alerts.
 
 ---
 
