@@ -69,7 +69,7 @@ Led cross-functional engineering teams while remaining the lead full stack engin
 
 - Built web features and promotional campaigns for Tencent's gaming portfolio in the Operations Department of Interactive Entertainment Group (IEG).
 
-### JD.com / Tencent E-commerce
+### Tencent E-Commerce (ECC), acquired by JD.com
 **Software Engineer** | 04/2013 - 05/2015 | Shanghai, China
 
 - Led DevOps for the mobile division of one of China's largest B2C platforms, and built the Configuration Management Database (CMDB) that gave it a single source of truth for infrastructure.
