@@ -14,7 +14,7 @@ Software architect with 13 years building production systems in telecom identity
 
 ## Skills
 
-**Domain:** STIR/SHAKEN call authentication, SIP signaling, PKI and certificate lifecycle, telecom anti-fraud, loan origination
+**Domain:** STIR/SHAKEN call authentication, SIP signaling, PKI and certificate lifecycle, telecom anti-fraud, loan origination systems
 
 **AI engineering:** MCP servers and tool schemas, OAuth-protected agent access, agent-assisted development (Claude Code, Codex), AGENTS.md context contracts
 
@@ -100,4 +100,4 @@ Led cross-functional engineering teams while remaining the lead full stack engin
 - Master of Engineering, Computer Science | 2010 - 2013
 - Bachelor of Engineering, Mechanical Engineering; Bachelor of Economics | 2005 - 2011
 
-*rev#12  ·  Aug 17, 2026*
+*rev#14  ·  Aug 17, 2026*
