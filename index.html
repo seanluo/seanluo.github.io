@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shuang Luo &middot; Software Architect / Senior Full Stack Engineer</title>
+<meta name="description" content="Software Architect / Senior Full Stack Engineer. 13 years building production systems in telecom identity, fintech lending, and consumer-scale infrastructure.">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #55565a;
+  --accent: #1f3a63;
+  --rule: #d6dae1;
+  --card: #f6f7f9;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171c;
+    --fg: #e6e8ec;
+    --muted: #a2a7b0;
+    --accent: #8fb0e0;
+    --rule: #2c313a;
+    --card: #1b1f26;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 16px/1.62 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+.wrap { max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+h1 { font-size: 2.1rem; line-height: 1.15; margin: 0; color: var(--accent); letter-spacing: -0.01em; }
+.tagline { color: var(--muted); font-size: 1.05rem; margin: .35rem 0 .2rem; }
+.contact { font-size: .95rem; margin: 0; }
+.contact a { color: inherit; }
+.actions { margin: 1.4rem 0 0; }
+.btn {
+  display: inline-block; padding: .55rem 1rem; border-radius: 6px;
+  background: var(--accent); color: #fff; text-decoration: none; font-size: .95rem;
+  font-weight: 600;
+}
+.btn:hover { opacity: .9; }
+h2 {
+  font-size: .82rem; text-transform: uppercase; letter-spacing: .05em;
+  color: var(--accent); margin: 2.6rem 0 0; padding-bottom: .4rem;
+  border-bottom: 1px solid var(--accent);
+}
+.skills { display: grid; grid-template-columns: max-content 1fr; gap: .5rem 1.1rem; margin-top: 1rem; }
+.skills dt { font-weight: 700; color: var(--accent); }
+.skills dd { margin: 0; }
+.rec { margin-top: 1.7rem; }
+.rec-head { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; align-items: baseline; }
+.rec-org { font-weight: 700; font-size: 1.06rem; }
+.rec-role { color: var(--accent); }
+.rec-meta { color: var(--muted); font-size: .92rem; white-space: nowrap; }
+.rec-place { color: var(--muted); font-size: .92rem; font-style: italic; }
+.rec-prior { color: var(--muted); font-size: .88rem; font-style: italic; margin-top: .25rem; }
+.rec-lead { color: var(--muted); margin: .45rem 0 .3rem; }
+ul { margin: .5rem 0 0; padding-left: 1.15rem; }
+li { margin: .4rem 0; }
+li::marker { color: var(--accent); }
+.earlier { margin-top: 1.5rem; color: var(--fg); }
+footer { margin-top: 3.5rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .87rem; }
+@media (max-width: 34rem) {
+  .wrap { padding-top: 2rem; }
+  h1 { font-size: 1.7rem; }
+  .skills { grid-template-columns: 1fr; gap: .15rem .5rem; }
+  .skills dd { margin-bottom: .55rem; }
+  .rec-meta, .rec-place { white-space: normal; }
+}
+@media print {
+  .actions, footer { display: none; }
+  body { font-size: 11pt; }
+  .wrap { padding: 0; max-width: none; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Shuang Luo</h1>
+<p class="tagline">Software Architect / Senior Full Stack Engineer</p>
+<p class="contact">Shanghai, China &nbsp;|&nbsp; <a href="mailto:imluoshuang@gmail.com">imluoshuang@gmail.com</a></p>
+<p class="actions"><a class="btn" href="shuang-luo-resume.pdf">Download PDF</a></p>
+</header>
+<h2>Summary</h2>
+<p>Software architect with 13 years building production systems in telecom identity and anti-fraud (STIR/SHAKEN, SIP, caller ID), fintech lending, and consumer-scale infrastructure at Tencent and JD.com. Designs the architecture and writes the code that ships it. Works both sides of AI-agent infrastructure: production MCP servers behind OAuth, and agent-assisted delivery at volume. Strongest on regulated domains, high-volume integrations, and correctness at system boundaries.</p>
+<h2>Skills</h2>
+<dl class="skills">
+<dt>Domain</dt>
+<dd>STIR/SHAKEN call authentication, SIP signaling, PKI and certificate lifecycle, telecom anti-fraud, loan origination</dd>
+<dt>AI engineering</dt>
+<dd>MCP servers and tool schemas, OAuth-protected agent access, agent-assisted development (Claude Code, Codex), AGENTS.md context contracts</dd>
+<dt>Languages</dt>
+<dd>Go, Python, TypeScript</dd>
+<dt>Backend</dt>
+<dd>PostgreSQL, Redis, DynamoDB, Django and DRF, Node.js, Effect-TS, microservices, distributed job pipelines</dd>
+<dt>Frontend</dt>
+<dd>React, Next.js, Tailwind</dd>
+<dt>Platform</dt>
+<dd>AWS (Lambda, SQS, S3, RDS, EC2, VPC, Route 53, CloudFront, CloudFormation), Docker, nginx, CI/CD, OpenTelemetry, Grafana</dd>
+</dl>
+<h2>Experience</h2>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">US commercial lending platform</span>
+<span class="rec-meta">12/2024 - 07/2026</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">Senior Full Stack Software Engineer</span>
+<span class="rec-place">Shanghai, China (remote, US team)</span>
+</div>
+<p class="rec-lead">Commercial lending platform: origination, underwriting, and servicing.</p>
+<ul>
+<li>Largest single contributor to a 5,042-commit TypeScript monorepo, with 1,198 commits over 19 months on a multi-person team.</li>
+<li>Led the shared-package boundary architecture separating runtime-neutral, frontend-only, and backend-only code, enforced by lint in CI rather than by convention.</li>
+<li>Led whole-monorepo upgrades to Node 24 with full ESM, TypeScript 6, and pnpm 11, and replaced fire-and-forget background work with an SQS-backed job pipeline that is retryable and observable.</li>
+<li>Designed the OpenTelemetry tracing conventions that auto-instrument 100+ database methods and 60+ external service calls, so production latency is diagnosed from a trace instead of a guess.</li>
+<li>Built the MCP server exposing the platform to AI agents, secured by full OAuth rather than a shared API key, with presigned direct-to-S3 upload for large documents.</li>
+<li>Authored the agent context contracts (AGENTS.md, CLAUDE.md) codifying architecture rules, test layout, and invariants, so coding agents and new engineers work from the same brief. Shipped production code at volume with agent tooling alongside conventional review.</li>
+<li>Integrated roughly two dozen third-party services across banking data, credit, CRM, identity, and e-signature. Implemented role-based access control on every API endpoint and ran the dependency-patching and vulnerability-review cadence.</li>
+</ul>
+</section>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">Neustar Inc., acquired by TransUnion</span>
+<span class="rec-meta">12/2020 - 11/2024</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">System Architect</span>
+<span class="rec-place">Virginia, US and Shanghai, China</span>
+</div>
+<div class="rec-prior">Principal Software Engineer, 12/2020 - 03/2022</div>
+<p class="rec-lead">Core member of the Communications Solutions Innovation Team, building nationwide call-authentication infrastructure.</p>
+<ul>
+<li>Designed and built the STIR/SHAKEN Interoperability Test Automation Platform, replacing manual cross-carrier testing with a repeatable automated suite.</li>
+<li>Prototyped STIR for Messaging, extending signed-identity guarantees from voice to SMS.</li>
+<li>Drove integration of nationwide call authentication and verification across Brazilian carriers, working through per-carrier signaling differences at national scale.</li>
+<li>Owned the certificate lifecycle underpinning SHAKEN (CA generation, signing, revocation, CRL, verification), hands-on with SIP across Oracle SBC, Kamailio, and Asterisk.</li>
+</ul>
+</section>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">Telo USA, Inc.</span>
+<span class="rec-meta">09/2016 - 12/2020</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">Vice President of Technology</span>
+<span class="rec-place">Atlanta, GA</span>
+</div>
+<p class="rec-lead">Led cross-functional engineering teams while remaining the lead full stack engineer on core products.</p>
+<ul>
+<li>Owned three revenue products end to end: <strong>OpenCNAM</strong>, a caller-ID platform with REST, SS7/SIGTRAN, ENUM, and SIP interfaces; <strong>EveryoneAPI</strong>, a reverse phone append API for fraud prevention; and the <strong>OpenCNAM Storage Platform</strong>.</li>
+<li>Architected high-availability, low-latency services against an explicit cost-per-query target, and standardized build and deployment across dev, test, and production.</li>
+<li>Introduced a microservices architecture with a decoupled frontend and backend, using AWS SQS for asynchronous processing.</li>
+<li>Built the monitoring stack on CloudWatch, InfluxDB, and Grafana, plus an invoicing system integrated with external financial platforms.</li>
+</ul>
+</section>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">Tencent Technology</span>
+<span class="rec-meta">05/2015 - 05/2016</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">Software Engineer</span>
+<span class="rec-place">Shanghai, China</span>
+</div>
+<ul>
+<li>Built web features and promotional campaigns for Tencent&#x27;s gaming portfolio in the Operations Department of Interactive Entertainment Group (IEG).</li>
+</ul>
+</section>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">JD.com / Tencent E-commerce</span>
+<span class="rec-meta">04/2013 - 05/2015</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">Software Engineer</span>
+<span class="rec-place">Shanghai, China</span>
+</div>
+<ul>
+<li>Led DevOps for the mobile division of one of China&#x27;s largest B2C platforms, and built the Configuration Management Database (CMDB) that gave it a single source of truth for infrastructure.</li>
+<li>Built the server monitoring infrastructure and a status-code monitoring system, turning silent HTTP error spikes into actionable alerts.</li>
+</ul>
+</section>
+<p class="earlier"><strong>Earlier:</strong> QA Intern, Trend Micro Inc., Nanjing, China (04/2011 - 10/2011). Built the automated testing framework for the InterScan Messaging Security Virtual Appliance.</p>
+<h2>Selected Projects</h2>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">Licensed data platform for air pollutant research (university research lab)</span>
+<span class="rec-meta">2022 - 2026</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">Sole architect and author</span>
+<span class="rec-place">Django, DRF, React, Docker</span>
+</div>
+<ul>
+<li>Async job engine running numpy/scipy matching, and geocoding of Chinese addresses across Baidu, Gaode, and Tianditu, with per-vendor rate-limit throttling and conversion between Chinese and international coordinate systems.</li>
+<li>Designed the commercial layer from scratch: signed license files, per-installation activation, feature gates, a charge ledger with prepaid reservations, and settlement reconciliation that survives delivery succeeding while billing fails. 1,067 tests, zero type-checker errors enforced at merge.</li>
+</ul>
+</section>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">Public air quality health service (airhealthindex.org)</span>
+<span class="rec-meta">2025 - 2026</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">Sole author</span>
+<span class="rec-place">Go, PostgreSQL</span>
+</div>
+<ul>
+<li>Hourly health indices for cities across China on the Go standard library with one external dependency. When the upstream data feed is late, the cache serves the previous hour&#x27;s snapshot rather than an error page.</li>
+<li>Map provider is selected automatically, with fallback, so the site stays compliant with Chinese mapping regulation and usable from outside China. Dual .org and .cn deployment with versioned releases, one-command rollback, and Chinese ICP registration.</li>
+</ul>
+</section>
+<h2>Education</h2>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">Nanjing University of Science and Technology</span>
+<span class="rec-place">Nanjing, China</span>
+</div>
+<ul>
+<li>Master of Engineering, Computer Science <span class="rec-meta">2010 - 2013</span></li>
+<li>Bachelor of Engineering, Mechanical Engineering; Bachelor of Economics <span class="rec-meta">2005 - 2011</span></li>
+</ul>
+</section>
+<footer>Generated from a single source. <a href="shuang-luo-resume.pdf">PDF version</a>.</footer>
+</div>
+</body>
+</html>
