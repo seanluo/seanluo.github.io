@@ -72,6 +72,13 @@ footer { margin-top: 3.5rem; padding-top: 1.2rem; border-top: 1px solid var(--ru
   .skills dd { margin-bottom: .55rem; }
   .rec-meta, .rec-place { white-space: normal; }
 }
+html[lang="zh"] body {
+  font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  line-height: 1.75;
+}
+html[lang="zh"] .rec-place, html[lang="zh"] .rec-prior { font-style: normal; }
+html[lang="zh"] h2 { text-transform: none; letter-spacing: .02em; font-size: .95rem; }
+.langswitch { margin-left: .75rem; font-size: .95rem; color: var(--accent); }
 @media print {
   .actions, footer { display: none; }
   body { font-size: 11pt; }
@@ -85,7 +92,7 @@ footer { margin-top: 3.5rem; padding-top: 1.2rem; border-top: 1px solid var(--ru
 <h1>Shuang Luo</h1>
 <p class="tagline">Software Architect / Senior Full Stack Engineer</p>
 <p class="contact">Shanghai, China &nbsp;|&nbsp; <a href="mailto:imluoshuang@gmail.com">imluoshuang@gmail.com</a></p>
-<p class="actions"><a class="btn" href="shuang-luo-resume.pdf">Download PDF</a></p>
+<p class="actions"><a class="btn" href="shuang-luo-resume.pdf">Download PDF</a><a class="langswitch" href="zh/">中文</a></p>
 </header>
 <h2>Summary</h2>
 <p>Software architect with 13 years building production systems in telecom identity and anti-fraud (STIR/SHAKEN, SIP, caller ID), fintech lending, and consumer-scale infrastructure at Tencent and JD.com. Designs the architecture and writes the code that ships it. Works both sides of AI-agent infrastructure: production MCP servers behind OAuth, and agent-assisted delivery at volume. Strongest on regulated domains, high-volume integrations, and correctness at system boundaries.</p>
@@ -228,7 +235,7 @@ footer { margin-top: 3.5rem; padding-top: 1.2rem; border-top: 1px solid var(--ru
 <li>Bachelor of Engineering, Mechanical Engineering; Bachelor of Economics <span class="rec-meta">2005 - 2011</span></li>
 </ul>
 </section>
-<footer>Generated from a single source. <a href="shuang-luo-resume.pdf">PDF version</a>.</footer>
+<footer>Generated from a single source. <a href="shuang-luo-resume.pdf">PDF</a></footer>
 </div>
 </body>
 </html>

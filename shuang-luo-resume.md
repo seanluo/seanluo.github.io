@@ -6,13 +6,13 @@ Shanghai, China | imluoshuang@gmail.com
 
 ---
 
-## SUMMARY
+## Summary
 
 Software architect with 13 years building production systems in telecom identity and anti-fraud (STIR/SHAKEN, SIP, caller ID), fintech lending, and consumer-scale infrastructure at Tencent and JD.com. Designs the architecture and writes the code that ships it. Works both sides of AI-agent infrastructure: production MCP servers behind OAuth, and agent-assisted delivery at volume. Strongest on regulated domains, high-volume integrations, and correctness at system boundaries.
 
 ---
 
-## SKILLS
+## Skills
 
 **Domain:** STIR/SHAKEN call authentication, SIP signaling, PKI and certificate lifecycle, telecom anti-fraud, loan origination
 
@@ -28,7 +28,7 @@ Software architect with 13 years building production systems in telecom identity
 
 ---
 
-## EXPERIENCE
+## Experience
 
 ### Spectra Capital, LLC
 **Senior Full Stack Software Engineer** | 12/2024 - 07/2026 | Shanghai, China (remote, US team)
@@ -79,7 +79,7 @@ Led cross-functional engineering teams while remaining the lead full stack engin
 
 ---
 
-## SELECTED PROJECTS
+## Selected Projects
 
 ### Licensed data platform for air pollutant research (university research lab)
 **Sole architect and author** | 2022 - 2026 | Django, DRF, React, Docker
@@ -95,7 +95,7 @@ Led cross-functional engineering teams while remaining the lead full stack engin
 
 ---
 
-## EDUCATION
+## Education
 
 **Nanjing University of Science and Technology** | Nanjing, China
 

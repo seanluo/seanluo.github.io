@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>骆爽 &middot; 软件架构师 / 高级全栈工程师</title>
+<meta name="description" content="软件架构师 / 高级全栈工程师. 13 years building production systems in telecom identity, fintech lending, and consumer-scale infrastructure.">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #55565a;
+  --accent: #1f3a63;
+  --rule: #d6dae1;
+  --card: #f6f7f9;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171c;
+    --fg: #e6e8ec;
+    --muted: #a2a7b0;
+    --accent: #8fb0e0;
+    --rule: #2c313a;
+    --card: #1b1f26;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 16px/1.62 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+.wrap { max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+h1 { font-size: 2.1rem; line-height: 1.15; margin: 0; color: var(--accent); letter-spacing: -0.01em; }
+.tagline { color: var(--muted); font-size: 1.05rem; margin: .35rem 0 .2rem; }
+.contact { font-size: .95rem; margin: 0; }
+.contact a { color: inherit; }
+.actions { margin: 1.4rem 0 0; }
+.btn {
+  display: inline-block; padding: .55rem 1rem; border-radius: 6px;
+  background: var(--accent); color: #fff; text-decoration: none; font-size: .95rem;
+  font-weight: 600;
+}
+.btn:hover { opacity: .9; }
+h2 {
+  font-size: .82rem; text-transform: uppercase; letter-spacing: .05em;
+  color: var(--accent); margin: 2.6rem 0 0; padding-bottom: .4rem;
+  border-bottom: 1px solid var(--accent);
+}
+.skills { display: grid; grid-template-columns: max-content 1fr; gap: .5rem 1.1rem; margin-top: 1rem; }
+.skills dt { font-weight: 700; color: var(--accent); }
+.skills dd { margin: 0; }
+.rec { margin-top: 1.7rem; }
+.rec-head { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; align-items: baseline; }
+.rec-org { font-weight: 700; font-size: 1.06rem; }
+.rec-role { color: var(--accent); }
+.rec-meta { color: var(--muted); font-size: .92rem; white-space: nowrap; }
+.rec-place { color: var(--muted); font-size: .92rem; font-style: italic; }
+.rec-prior { color: var(--muted); font-size: .88rem; font-style: italic; margin-top: .25rem; }
+.rec-lead { color: var(--muted); margin: .45rem 0 .3rem; }
+ul { margin: .5rem 0 0; padding-left: 1.15rem; }
+li { margin: .4rem 0; }
+li::marker { color: var(--accent); }
+.earlier { margin-top: 1.5rem; color: var(--fg); }
+footer { margin-top: 3.5rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .87rem; }
+@media (max-width: 34rem) {
+  .wrap { padding-top: 2rem; }
+  h1 { font-size: 1.7rem; }
+  .skills { grid-template-columns: 1fr; gap: .15rem .5rem; }
+  .skills dd { margin-bottom: .55rem; }
+  .rec-meta, .rec-place { white-space: normal; }
+}
+html[lang="zh"] body {
+  font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  line-height: 1.75;
+}
+html[lang="zh"] .rec-place, html[lang="zh"] .rec-prior { font-style: normal; }
+html[lang="zh"] h2 { text-transform: none; letter-spacing: .02em; font-size: .95rem; }
+.langswitch { margin-left: .75rem; font-size: .95rem; color: var(--accent); }
+@media print {
+  .actions, footer { display: none; }
+  body { font-size: 11pt; }
+  .wrap { padding: 0; max-width: none; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>骆爽</h1>
+<p class="tagline">软件架构师 / 高级全栈工程师</p>
+<p class="contact">中国上海 &nbsp;|&nbsp; <a href="mailto:imluoshuang@gmail.com">imluoshuang@gmail.com</a></p>
+<p class="actions"><a class="btn" href="shuang-luo-resume.pdf">下载 PDF</a><a class="langswitch" href="../">English</a></p>
+</header>
+<h2>个人简介</h2>
+<p>拥有 13 年生产系统构建经验的软件架构师，横跨电信身份认证与反欺诈（STIR/SHAKEN、SIP、来电显示）、金融科技借贷，以及腾讯、京东的消费级规模基础设施。既做架构设计，也亲手写上线的代码。在 AI Agent 基础设施的两端都有产出：带完整 OAuth 的生产级 MCP 服务，以及借助 Agent 工具规模化交付。最擅长强监管领域、高频第三方集成，以及系统边界上的正确性。</p>
+<h2>专业技能</h2>
+<dl class="skills">
+<dt>领域专长</dt>
+<dd>STIR/SHAKEN 呼叫认证、SIP 信令、PKI 与证书生命周期、电信反欺诈、贷款受理</dd>
+<dt>AI 工程</dt>
+<dd>MCP 服务与工具 schema 设计、OAuth 保护的 Agent 访问、Agent 辅助开发（Claude Code、Codex）、AGENTS.md 上下文契约</dd>
+<dt>编程语言</dt>
+<dd>Go、Python、TypeScript</dd>
+<dt>后端与数据</dt>
+<dd>PostgreSQL、Redis、DynamoDB、Django 与 DRF、Node.js、Effect-TS、微服务、分布式任务流水线</dd>
+<dt>前端</dt>
+<dd>React、Next.js、Tailwind</dd>
+<dt>平台与运维</dt>
+<dd>AWS（Lambda、SQS、S3、RDS、EC2、VPC、Route 53、CloudFront、CloudFormation）、Docker、nginx、CI/CD、OpenTelemetry、Grafana</dd>
+</dl>
+<h2>工作经历</h2>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">Spectra Capital, LLC</span>
+<span class="rec-meta">2024.12 - 2026.07</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">高级全栈软件工程师</span>
+<span class="rec-place">中国上海（远程，美国团队）</span>
+</div>
+<p class="rec-lead">商业贷款平台：贷款受理、风控审批与贷后管理。</p>
+<ul>
+<li>在总计 5,042 次提交的 TypeScript monorepo 中是单人贡献最多者，19 个月内提交 1,198 次，团队为多人协作。</li>
+<li>主导共享包的边界架构，将运行时无关、仅前端、仅后端三类代码彻底分层，并用 CI 中的 lint 规则强制约束，而不是依赖团队自觉。</li>
+<li>主导全仓级别升级：Node 24 与完整 ESM、TypeScript 6、pnpm 11；并将「发出即不管」的后台任务替换为基于 SQS 的任务流水线，做到可重试、可观测。</li>
+<li>设计 OpenTelemetry 链路追踪规范，自动埋点 100+ 个数据库方法与 60+ 个外部服务调用，让线上延迟问题靠 trace 定位而不是靠猜。</li>
+<li>构建面向 AI Agent 的 MCP 服务，用完整 OAuth 而非共享 API Key 做鉴权；大文件通过预签名直传 S3，不经过服务端。</li>
+<li>编写 Agent 上下文契约（AGENTS.md、CLAUDE.md），把架构约束、测试组织方式与不变量固化成文，让编码 Agent 与新人依据同一份说明工作。在常规代码评审之外，借助 Agent 工具规模化交付生产代码。</li>
+<li>集成二十余个第三方服务，覆盖银行数据、征信、CRM、身份认证与电子签名。为每个 API 端点实现基于角色的访问控制，并负责依赖升级与漏洞审查的常态化流程。</li>
+</ul>
+</section>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">Neustar Inc.（后被 TransUnion 收购）</span>
+<span class="rec-meta">2020.12 - 2024.11</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">系统架构师</span>
+<span class="rec-place">美国弗吉尼亚州 / 中国上海</span>
+</div>
+<div class="rec-prior">首席软件工程师，2020.12 - 2022.03</div>
+<p class="rec-lead">通信解决方案创新团队核心成员，构建全国级别的呼叫认证基础设施。</p>
+<ul>
+<li>设计并实现 STIR/SHAKEN 互操作性测试自动化平台，用可重复执行的自动化套件替代跨运营商的人工测试。</li>
+<li>完成 STIR for Messaging 协议原型，把签名身份保证从语音扩展到短信。</li>
+<li>推动巴西各运营商全国级呼叫认证与验证系统的对接，逐家处理运营商之间的信令实现差异。</li>
+<li>负责支撑 SHAKEN 的证书全生命周期（CA 生成、签发、吊销、CRL 维护、签名验证）；在 Oracle SBC、Kamailio、Asterisk 上深度实践 SIP。</li>
+</ul>
+</section>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">Telo USA, Inc.</span>
+<span class="rec-meta">2016.09 - 2020.12</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">技术副总裁</span>
+<span class="rec-place">美国佐治亚州亚特兰大</span>
+</div>
+<p class="rec-lead">带领跨职能研发团队，同时作为核心产品的主力全栈工程师持续写代码。</p>
+<ul>
+<li>端到端负责三条营收产品线：<strong>OpenCNAM</strong>，提供 REST、SS7/SIGTRAN、ENUM 与 SIP 多种接口的来电显示平台；<strong>EveryoneAPI</strong>，用于反欺诈的号码信息反查 API；以及 <strong>OpenCNAM Storage Platform</strong>。</li>
+<li>在明确的单次查询成本目标下设计高可用、低延迟服务，并统一开发、测试、生产三套环境的构建与发布流程。</li>
+<li>引入微服务架构，实现前后端解耦，并用 AWS SQS 处理异步任务。</li>
+<li>基于 CloudWatch、InfluxDB 与 Grafana 搭建监控体系，并实现对接外部金融平台的计费开票系统。</li>
+</ul>
+</section>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">腾讯科技</span>
+<span class="rec-meta">2015.05 - 2016.05</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">软件工程师</span>
+<span class="rec-place">中国上海</span>
+</div>
+<ul>
+<li>在互动娱乐事业群（IEG）运营部，为腾讯游戏产品线开发 Web 功能与营销活动。</li>
+</ul>
+</section>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">京东 / 腾讯电商</span>
+<span class="rec-meta">2013.04 - 2015.05</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">软件工程师</span>
+<span class="rec-place">中国上海</span>
+</div>
+<ul>
+<li>负责国内头部 B2C 平台无线事业部的 DevOps 建设，并搭建配置管理数据库（CMDB），让基础设施信息有唯一可信来源。</li>
+<li>搭建服务器监控体系与状态码监控系统，把无人察觉的 HTTP 错误率突增转化为可响应的告警。</li>
+</ul>
+</section>
+<p class="earlier"><strong>早期经历：</strong> 趋势科技（Trend Micro）测试实习生，中国南京，2011.04 - 2011.10。为 InterScan 邮件安全虚拟设备开发自动化测试框架。</p>
+<h2>项目经历</h2>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">面向大气污染物研究的商业授权数据平台（高校研究实验室）</span>
+<span class="rec-meta">2022 - 2026</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">独立架构与开发</span>
+<span class="rec-place">Django, DRF, React, Docker</span>
+</div>
+<ul>
+<li>异步任务引擎，基于 numpy/scipy 做匹配计算；中文地址地理编码同时对接百度、高德与天地图，按服务商分别限流，并处理国内与国际坐标系之间的转换。</li>
+<li>从零设计完整商业化层：签名授权文件、按安装实例激活、功能开关、支持预扣额度的计费台账，以及在「交付成功但计费失败」情况下仍能对平的结算对账。1,067 个测试，合并前强制零类型检查错误。</li>
+</ul>
+</section>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">空气质量健康指数公共服务（airhealthindex.org）</span>
+<span class="rec-meta">2025 - 2026</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">独立开发</span>
+<span class="rec-place">Go, PostgreSQL</span>
+</div>
+<ul>
+<li>为全国城市提供小时级健康指数，仅用 Go 标准库加一个外部依赖实现。上游数据延迟时，缓存返回上一小时的快照而不是错误页。</li>
+<li>地图服务商自动选择并带降级方案，既满足国内测绘合规要求，也保证境外可正常访问。.org 与 .cn 双站部署，版本化发布、一条命令回滚，并完成 ICP 备案。</li>
+</ul>
+</section>
+<h2>教育背景</h2>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">南京理工大学</span>
+<span class="rec-place">中国南京</span>
+</div>
+<ul>
+<li>工学硕士，计算机科学 <span class="rec-meta">2010 - 2013</span></li>
+<li>工学学士，机械工程；经济学学士 <span class="rec-meta">2005 - 2011</span></li>
+</ul>
+</section>
+<footer>由单一内容源生成。 <a href="shuang-luo-resume.pdf">PDF</a></footer>
+</div>
+</body>
+</html>
