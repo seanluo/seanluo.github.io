@@ -30,7 +30,7 @@ Software architect with 13 years building production systems in telecom identity
 
 ## EXPERIENCE
 
-### US commercial lending platform
+### Spectra Capital, LLC
 **Senior Full Stack Software Engineer** | 12/2024 - 07/2026 | Shanghai, China (remote, US team)
 
 Commercial lending platform: origination, underwriting, and servicing.
