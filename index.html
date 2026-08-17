@@ -64,7 +64,6 @@ ul { margin: .5rem 0 0; padding-left: 1.15rem; }
 li { margin: .4rem 0; }
 li::marker { color: var(--accent); }
 .earlier { margin-top: 1.5rem; color: var(--fg); }
-footer { margin-top: 3.5rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .87rem; }
 @media (max-width: 34rem) {
   .wrap { padding-top: 2rem; }
   h1 { font-size: 1.7rem; }
@@ -78,9 +77,15 @@ html[lang="zh"] body {
 }
 html[lang="zh"] .rec-place, html[lang="zh"] .rec-prior { font-style: normal; }
 html[lang="zh"] h2 { text-transform: none; letter-spacing: .02em; font-size: .95rem; }
-.langswitch { margin-left: .75rem; font-size: .95rem; color: var(--accent); }
+.langswitch {
+  display: inline-block; margin-left: .6rem; padding: .5rem 1.05rem;
+  border: 2px solid var(--accent); border-radius: 6px; color: var(--accent);
+  text-decoration: none; font-size: .95rem; font-weight: 700; letter-spacing: .01em;
+}
+.langswitch:hover { background: var(--accent); color: var(--bg); }
+.actions { display: flex; flex-wrap: wrap; gap: .1rem; align-items: center; }
 @media print {
-  .actions, footer { display: none; }
+  .actions { display: none; }
   body { font-size: 11pt; }
   .wrap { padding: 0; max-width: none; }
 }
@@ -235,7 +240,6 @@ html[lang="zh"] h2 { text-transform: none; letter-spacing: .02em; font-size: .95
 <li>Bachelor of Engineering, Mechanical Engineering; Bachelor of Economics <span class="rec-meta">2005 - 2011</span></li>
 </ul>
 </section>
-<footer>Generated from a single source. <a href="shuang-luo-resume.pdf">PDF</a></footer>
 </div>
 </body>
 </html>

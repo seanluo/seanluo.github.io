@@ -64,7 +64,6 @@ ul { margin: .5rem 0 0; padding-left: 1.15rem; }
 li { margin: .4rem 0; }
 li::marker { color: var(--accent); }
 .earlier { margin-top: 1.5rem; color: var(--fg); }
-footer { margin-top: 3.5rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .87rem; }
 @media (max-width: 34rem) {
   .wrap { padding-top: 2rem; }
   h1 { font-size: 1.7rem; }
@@ -78,9 +77,15 @@ html[lang="zh"] body {
 }
 html[lang="zh"] .rec-place, html[lang="zh"] .rec-prior { font-style: normal; }
 html[lang="zh"] h2 { text-transform: none; letter-spacing: .02em; font-size: .95rem; }
-.langswitch { margin-left: .75rem; font-size: .95rem; color: var(--accent); }
+.langswitch {
+  display: inline-block; margin-left: .6rem; padding: .5rem 1.05rem;
+  border: 2px solid var(--accent); border-radius: 6px; color: var(--accent);
+  text-decoration: none; font-size: .95rem; font-weight: 700; letter-spacing: .01em;
+}
+.langswitch:hover { background: var(--accent); color: var(--bg); }
+.actions { display: flex; flex-wrap: wrap; gap: .1rem; align-items: center; }
 @media print {
-  .actions, footer { display: none; }
+  .actions { display: none; }
   body { font-size: 11pt; }
   .wrap { padding: 0; max-width: none; }
 }
@@ -95,7 +100,7 @@ html[lang="zh"] h2 { text-transform: none; letter-spacing: .02em; font-size: .95
 <p class="actions"><a class="btn" href="shuang-luo-resume.pdf">下载 PDF</a><a class="langswitch" href="../">English</a></p>
 </header>
 <h2>个人简介</h2>
-<p>拥有 13 年生产系统构建经验的软件架构师，横跨电信身份认证与反欺诈（STIR/SHAKEN、SIP、来电显示）、金融科技借贷，以及腾讯、京东的消费级规模基础设施。既做架构设计，也亲手写上线的代码。在 AI Agent 基础设施的两端都有产出：带完整 OAuth 的生产级 MCP 服务，以及借助 Agent 工具规模化交付。最擅长强监管领域、高频第三方集成，以及系统边界上的正确性。</p>
+<p>13 年研发经验的软件架构师。职业起点在腾讯与京东，做消费级规模的基础设施与 DevOps 建设；随后赴美工作近十年，历任 Telo 技术副总裁、Neustar/TransUnion 系统架构师，负责全国级电信身份认证与反欺诈系统，近两年主导美国商业贷款平台的架构设计。既做架构设计，也亲手写上线的代码。在 AI Agent 基础设施的两端都有产出：带完整 OAuth 的生产级 MCP 服务，以及借助 Agent 工具规模化交付生产代码。最擅长强监管领域、高频第三方集成，以及系统边界上的正确性。中英文均可作为工作语言。</p>
 <h2>专业技能</h2>
 <dl class="skills">
 <dt>领域专长</dt>
@@ -169,29 +174,44 @@ html[lang="zh"] h2 { text-transform: none; letter-spacing: .02em; font-size: .95
 </section>
 <section class="rec">
 <div class="rec-head">
-<span class="rec-org">腾讯科技</span>
+<span class="rec-org">腾讯科技（Tencent）</span>
 <span class="rec-meta">2015.05 - 2016.05</span>
 </div>
 <div class="rec-head">
 <span class="rec-role">软件工程师</span>
 <span class="rec-place">中国上海</span>
 </div>
+<p class="rec-lead">互动娱乐事业群（IEG）运营部。</p>
 <ul>
-<li>在互动娱乐事业群（IEG）运营部，为腾讯游戏产品线开发 Web 功能与营销活动。</li>
+<li>为腾讯游戏产品线开发面向玩家的 Web 功能与运营活动，配合游戏版本节奏交付。</li>
 </ul>
 </section>
 <section class="rec">
 <div class="rec-head">
-<span class="rec-org">京东 / 腾讯电商</span>
-<span class="rec-meta">2013.04 - 2015.05</span>
+<span class="rec-org">京东（JD.com）</span>
+<span class="rec-meta">2014.05 - 2015.05</span>
+</div>
+<div class="rec-head">
+<span class="rec-role">软件工程师</span>
+<span class="rec-place">中国上海</span>
+</div>
+<p class="rec-lead">无线事业部，国内头部 B2C 电商平台。</p>
+<ul>
+<li>主导无线事业部的 DevOps 建设，搭建配置管理数据库（CMDB），让基础设施信息有唯一可信来源。</li>
+<li>搭建服务器监控体系与状态码监控系统，把无人察觉的 HTTP 错误率突增转化为可响应的告警。</li>
+</ul>
+</section>
+<section class="rec">
+<div class="rec-head">
+<span class="rec-org">腾讯科技（Tencent）</span>
+<span class="rec-meta">2013.04 - 2014.05</span>
 </div>
 <div class="rec-head">
 <span class="rec-role">软件工程师</span>
 <span class="rec-place">中国上海</span>
 </div>
 <ul>
-<li>负责国内头部 B2C 平台无线事业部的 DevOps 建设，并搭建配置管理数据库（CMDB），让基础设施信息有唯一可信来源。</li>
-<li>搭建服务器监控体系与状态码监控系统，把无人察觉的 HTTP 错误率突增转化为可响应的告警。</li>
+<li>为腾讯云基础设施开发监控 agent，并开发部门内部 Web 应用。</li>
 </ul>
 </section>
 <p class="earlier"><strong>早期经历：</strong> 趋势科技（Trend Micro）测试实习生，中国南京，2011.04 - 2011.10。为 InterScan 邮件安全虚拟设备开发自动化测试框架。</p>
@@ -235,7 +255,6 @@ html[lang="zh"] h2 { text-transform: none; letter-spacing: .02em; font-size: .95
 <li>工学学士，机械工程；经济学学士 <span class="rec-meta">2005 - 2011</span></li>
 </ul>
 </section>
-<footer>由单一内容源生成。 <a href="shuang-luo-resume.pdf">PDF</a></footer>
 </div>
 </body>
 </html>
