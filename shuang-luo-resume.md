@@ -54,15 +54,15 @@ Core member of the Communications Solutions Innovation Team, building nationwide
 - Drove rollout of call authentication and verification across Brazilian carriers, resolving per-carrier signaling differences one operator at a time.
 - Owned the certificate lifecycle underpinning SHAKEN (CA generation, signing, revocation, CRL, verification), and did the SIP integration work across Oracle SBC, Kamailio, and Asterisk.
 
-### Telo USA, Inc.
+### Telo USA, Inc., acquired by Neustar
 **Vice President of Technology** | 09/2016 - 12/2020 | Atlanta, GA
 
 Led cross-functional engineering teams while remaining the lead full stack engineer on core products.
 
 - Owned three revenue products end to end: **OpenCNAM**, a caller-ID platform with REST, SS7/SIGTRAN, ENUM, and SIP interfaces; **EveryoneAPI**, a reverse phone append API for fraud prevention; and the **OpenCNAM Storage Platform**.
 - Architected high-availability, low-latency services against an explicit cost-per-query target, and standardized build and deployment across dev, test, and production.
-- Introduced a microservices architecture with a decoupled frontend and backend, using AWS SQS for asynchronous processing.
 - Built the monitoring stack on CloudWatch, InfluxDB, and Grafana, plus an invoicing system integrated with external financial platforms.
+- Owned the technical due diligence package through the acquisition: the architecture and infrastructure documentation the acquirer's technical review was conducted against.
 
 ### Tencent Technology
 **Software Engineer** | 05/2015 - 05/2016 | Shanghai, China
@@ -86,7 +86,7 @@ Led cross-functional engineering teams while remaining the lead full stack engin
 - Designed the commercial layer from scratch: signed license files, per-installation activation, feature gates, a charge ledger with prepaid reservations, and settlement reconciliation that survives delivery succeeding while billing fails. 1,067 tests, zero type-checker errors enforced at merge.
 
 ### Public air quality health service (airhealthindex.org)
-**Sole author** | 2025 - 2026 | Go, PostgreSQL
+**Sole author** | 2021 - 2026 | Go, PostgreSQL
 
 - Hourly health indices for cities across China on the Go standard library with one external dependency. When the upstream data feed is late, the cache serves the previous hour's snapshot rather than an error page.
 - Selects the map provider by visitor origin, with fallback, so the site stays compliant with Chinese mapping regulation and usable from outside China. Dual .org and .cn deployment with versioned releases, one-command rollback, and Chinese ICP registration.
@@ -101,4 +101,4 @@ Led cross-functional engineering teams while remaining the lead full stack engin
 - Bachelor of Economics (second bachelor's degree) | 2009 - 2011
 - Bachelor of Engineering, Mechanical Engineering | 2005 - 2009
 
-*rev#16  ·  Aug 18, 2026*
+*rev#17  ·  Aug 18, 2026*
