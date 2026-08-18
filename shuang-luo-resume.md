@@ -2,13 +2,13 @@
 
 Software Architect / Senior Full Stack Engineer
 
-Shanghai, China | imluoshuang@gmail.com
+Shanghai, China | imluoshuang@gmail.com | seanluo.github.io
 
 ---
 
 ## Summary
 
-Software architect with 13 years building production systems in telecom identity and anti-fraud (STIR/SHAKEN, SIP, caller ID), fintech lending, and consumer-scale infrastructure at Tencent and JD.com. Designs the architecture and writes the code that ships it. Works both sides of AI-agent infrastructure: production MCP servers behind OAuth, and agent-assisted delivery at volume. Strongest on regulated domains, high-volume integrations, and correctness at system boundaries.
+Software architect with 13 years building production systems in telecom identity and anti-fraud (STIR/SHAKEN, SIP, caller ID), fintech lending, and consumer-scale infrastructure at Tencent and JD.com. Designs the architecture and writes the code that ships it. Builds AI-agent infrastructure and develops with it: production MCP servers behind OAuth, and agent-assisted delivery of production code. Strongest on regulated domains, complex third-party integrations, and correctness at system boundaries.
 
 ---
 
@@ -35,9 +35,9 @@ Software architect with 13 years building production systems in telecom identity
 
 Commercial lending platform: origination, underwriting, and servicing.
 
-- Largest single contributor to a 5,042-commit TypeScript monorepo, with 1,198 commits over 19 months on a multi-person team.
+- Largest contributor to a 5,042-commit TypeScript monorepo, with 1,198 commits over 19 months on a multi-person team.
 - Led the shared-package boundary architecture separating runtime-neutral, frontend-only, and backend-only code, enforced by lint in CI rather than by convention.
-- Led whole-monorepo upgrades to Node 24 with full ESM, TypeScript 6, and pnpm 11, and replaced fire-and-forget background work with an SQS-backed job pipeline that is retryable and observable.
+- Drove whole-monorepo upgrades to Node 24 with full ESM, TypeScript 6, and pnpm 11, and replaced fire-and-forget background work with an SQS-backed job pipeline that is retryable and observable.
 - Designed the OpenTelemetry tracing conventions that auto-instrument 100+ database methods and 60+ external service calls, so production latency is diagnosed from a trace instead of a guess.
 - Built the MCP server exposing the platform to AI agents, secured by full OAuth rather than a shared API key, with presigned direct-to-S3 upload for large documents.
 - Authored the agent context contracts (AGENTS.md, CLAUDE.md) codifying architecture rules, test layout, and invariants, so coding agents and new engineers work from the same brief. Shipped production code at volume with agent tooling alongside conventional review.
@@ -51,8 +51,8 @@ Core member of the Communications Solutions Innovation Team, building nationwide
 
 - Designed and built the STIR/SHAKEN Interoperability Test Automation Platform, replacing manual cross-carrier testing with a repeatable automated suite.
 - Prototyped STIR for Messaging, extending signed-identity guarantees from voice to SMS.
-- Drove integration of nationwide call authentication and verification across Brazilian carriers, working through per-carrier signaling differences at national scale.
-- Owned the certificate lifecycle underpinning SHAKEN (CA generation, signing, revocation, CRL, verification), hands-on with SIP across Oracle SBC, Kamailio, and Asterisk.
+- Drove rollout of call authentication and verification across Brazilian carriers, resolving per-carrier signaling differences one operator at a time.
+- Owned the certificate lifecycle underpinning SHAKEN (CA generation, signing, revocation, CRL, verification), and did the SIP integration work across Oracle SBC, Kamailio, and Asterisk.
 
 ### Telo USA, Inc.
 **Vice President of Technology** | 09/2016 - 12/2020 | Atlanta, GA
@@ -67,13 +67,13 @@ Led cross-functional engineering teams while remaining the lead full stack engin
 ### Tencent Technology
 **Software Engineer** | 05/2015 - 05/2016 | Shanghai, China
 
-- Built web features and promotional campaigns for Tencent's gaming portfolio in the Operations Department of Interactive Entertainment Group (IEG).
+- Built player-facing web features and promotional campaigns for Tencent's gaming portfolio in the Interactive Entertainment Group (IEG), shipping in step with game release cycles.
 
 ### Tencent E-Commerce (ECC), acquired by JD.com
 **Software Engineer** | 04/2013 - 05/2015 | Shanghai, China
 
 - Built the cross-platform monitoring agent (Windows and Linux) for in-warehouse PCs and servers, with centralized remote deployment and updates.
-- Led DevOps for the mobile division of one of China's largest B2C platforms: the Configuration Management Database (CMDB) that gave it a single source of truth for infrastructure, plus server monitoring and a status-code system that turned silent HTTP error spikes into actionable alerts.
+- Led DevOps for JD.com's mobile division: built the Configuration Management Database (CMDB) that became its single source of truth for infrastructure, plus server monitoring and a status-code system that turned silent HTTP error spikes into actionable alerts.
 
 ---
 
@@ -82,14 +82,14 @@ Led cross-functional engineering teams while remaining the lead full stack engin
 ### Licensed data platform for air pollutant research (university research lab)
 **Sole architect and author** | 2022 - 2026 | Django, DRF, React, Docker
 
-- Async job engine running numpy/scipy matching, and geocoding of Chinese addresses across Baidu, Gaode, and Tianditu, with per-vendor rate-limit throttling and conversion between Chinese and international coordinate systems.
+- Built the async job engine that runs numpy/scipy matching of monitoring stations or coordinates to pollutant values over a requested time range, plus geocoding of Chinese addresses across Baidu, Gaode, and Tianditu with per-vendor throttling and Chinese-to-international coordinate conversion.
 - Designed the commercial layer from scratch: signed license files, per-installation activation, feature gates, a charge ledger with prepaid reservations, and settlement reconciliation that survives delivery succeeding while billing fails. 1,067 tests, zero type-checker errors enforced at merge.
 
 ### Public air quality health service (airhealthindex.org)
 **Sole author** | 2025 - 2026 | Go, PostgreSQL
 
 - Hourly health indices for cities across China on the Go standard library with one external dependency. When the upstream data feed is late, the cache serves the previous hour's snapshot rather than an error page.
-- Map provider is selected automatically, with fallback, so the site stays compliant with Chinese mapping regulation and usable from outside China. Dual .org and .cn deployment with versioned releases, one-command rollback, and Chinese ICP registration.
+- Selects the map provider by visitor origin, with fallback, so the site stays compliant with Chinese mapping regulation and usable from outside China. Dual .org and .cn deployment with versioned releases, one-command rollback, and Chinese ICP registration.
 
 ---
 
@@ -98,6 +98,7 @@ Led cross-functional engineering teams while remaining the lead full stack engin
 **Nanjing University of Science and Technology** | Nanjing, China
 
 - Master of Engineering, Computer Science | 2010 - 2013
-- Bachelor of Engineering, Mechanical Engineering; Bachelor of Economics | 2005 - 2011
+- Bachelor of Economics (second bachelor's degree) | 2009 - 2011
+- Bachelor of Engineering, Mechanical Engineering | 2005 - 2009
 
-*rev#14  ·  Aug 17, 2026*
+*rev#16  ·  Aug 18, 2026*
