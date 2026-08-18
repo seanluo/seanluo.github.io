@@ -2,7 +2,7 @@
 
 Software Architect / Senior Full Stack Engineer
 
-Shanghai, China | imluoshuang@gmail.com | seanluo.github.io
+Shanghai, China | imluoshuang@gmail.com | shuang.dev
 
 ---
 
@@ -101,4 +101,4 @@ Led cross-functional engineering teams while remaining the lead full stack engin
 - Bachelor of Economics (second bachelor's degree) | 2009 - 2011
 - Bachelor of Engineering, Mechanical Engineering | 2005 - 2009
 
-*rev#17  ·  Aug 18, 2026*
+*rev#18  ·  Aug 18, 2026*

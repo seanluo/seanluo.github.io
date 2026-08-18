@@ -2,7 +2,7 @@
 
 软件架构师 / 高级全栈工程师
 
-中国上海 | imluoshuang@gmail.com | seanluo.github.io
+中国上海 | imluoshuang@gmail.com | shuang.dev
 
 ---
 
@@ -109,4 +109,4 @@
 - 经济学 学士（第二学士学位） | 2009 - 2011
 - 机械工程 工学学士 | 2005 - 2009
 
-*rev#17  ·  2026年8月18日*
+*rev#18  ·  2026年8月18日*
